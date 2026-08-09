@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Jacobus Barnard - 59 Seconds | MSIT Capstone Portfolio</title>
+<meta name="description" content="Portfolio of Jacobus Barnard: 59 Seconds, a projector-first ESL speaking game. Live product, MSIT capstone, full case study.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600;800;900&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@500;700&display=swap" rel="stylesheet">
+<style>
+:root{
+  --bg:#050B14; --card:#0A1322; --line:#123049;
+  --cyan:#38BDF8; --cyan-soft:rgba(56,189,248,.14);
+  --ink:#E6F1FA; --muted:#8AA3B8;
+  --purple:#A78BFA; --green:#4ADE80; --pink:#F472B6; --amber:#FBBF24;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{background:var(--bg);color:var(--ink);font-family:Inter,system-ui,sans-serif;line-height:1.65;font-size:17px}
+a{color:var(--cyan)}
+a:focus-visible,button:focus-visible{outline:2px solid var(--cyan);outline-offset:3px;border-radius:4px}
+.wrap{max-width:980px;margin:0 auto;padding:0 22px}
+.eyebrow{font-family:'JetBrains Mono',monospace;font-size:.72rem;letter-spacing:.22em;text-transform:uppercase;color:var(--muted)}
+h2{font-family:Poppins,sans-serif;font-weight:800;font-size:clamp(1.5rem,3.4vw,2.1rem);margin:.35em 0 .6em}
+section{padding:72px 0;border-top:1px solid var(--line)}
+p{max-width:68ch}
+.muted{color:var(--muted)}
+
+/* ---------- header ---------- */
+header{padding:26px 0}
+.topbar{display:flex;justify-content:space-between;align-items:center;gap:16px;flex-wrap:wrap}
+.logo{font-family:Poppins,sans-serif;font-weight:900;font-size:1.05rem;letter-spacing:.02em}
+.logo span{color:var(--cyan);text-shadow:0 0 14px rgba(56,189,248,.7)}
+nav a{color:var(--muted);text-decoration:none;font-size:.88rem;margin-left:18px}
+nav a:hover{color:var(--ink)}
+
+/* ---------- hero card (signature) ---------- */
+.hero{padding:44px 0 80px}
+.hero-kicker{display:flex;align-items:baseline;justify-content:space-between;gap:16px;flex-wrap:wrap;margin-bottom:18px}
+h1{font-family:Poppins,sans-serif;font-weight:900;font-size:clamp(1.9rem,5vw,3rem);line-height:1.12}
+h1 .glow{color:var(--cyan);text-shadow:0 0 22px rgba(56,189,248,.75)}
+.hero-sub{margin:14px 0 34px;color:var(--muted);max-width:56ch}
+.gamecard{position:relative;border:1px solid var(--line);border-radius:18px;background:linear-gradient(180deg,var(--card),#08101d);
+  box-shadow:0 0 0 1px rgba(56,189,248,.08),0 0 46px rgba(56,189,248,.10);padding:34px 34px 30px}
+.timer{position:absolute;top:-24px;right:26px;border:1px solid var(--line);border-radius:14px;background:var(--card);
+  padding:10px 18px 8px;text-align:center;box-shadow:0 0 26px rgba(56,189,248,.28)}
+.timer b{display:block;font-family:Poppins,sans-serif;font-weight:900;font-size:2.1rem;color:var(--cyan);text-shadow:0 0 16px rgba(56,189,248,.8);line-height:1}
+.timer small{font-family:'JetBrains Mono',monospace;font-size:.58rem;letter-spacing:.34em;color:var(--muted)}
+.gamecard ol{list-style:none}
+.gamecard li{display:flex;align-items:baseline;gap:16px;padding:15px 0;border-bottom:1px solid rgba(18,48,73,.6)}
+.gamecard li:last-child{border-bottom:0}
+.gamecard .n{font-family:'JetBrains Mono',monospace;color:var(--muted);font-size:.85rem;min-width:1.1em}
+.gamecard .word{font-family:Poppins,sans-serif;font-weight:800;font-size:clamp(1.05rem,2.6vw,1.5rem);color:var(--cyan);text-shadow:0 0 12px rgba(56,189,248,.45)}
+.gamecard .word a{text-decoration:none;color:inherit}
+.gamecard .word a:hover{text-decoration:underline}
+.badge{font-family:'JetBrains Mono',monospace;font-size:.62rem;letter-spacing:.14em;text-transform:uppercase;color:var(--muted);
+  border:1px solid var(--line);border-radius:999px;padding:3px 10px;white-space:nowrap}
+.cta-row{display:flex;gap:14px;flex-wrap:wrap;margin-top:30px}
+.btn{display:inline-block;font-family:Poppins,sans-serif;font-weight:600;font-size:.92rem;text-decoration:none;
+  border-radius:12px;padding:12px 22px;border:1px solid var(--line);color:var(--ink)}
+.btn.primary{background:var(--cyan);color:#04121e;border-color:transparent;box-shadow:0 0 26px rgba(56,189,248,.35)}
+.btn:hover{border-color:var(--cyan)}
+.btn.primary:hover{filter:brightness(1.08)}
+
+/* ---------- sections ---------- */
+.cols{display:grid;grid-template-columns:1fr 1fr;gap:40px}
+@media(max-width:760px){.cols{grid-template-columns:1fr}}
+.stack{display:flex;flex-wrap:wrap;gap:9px;margin-top:14px}
+.stack span{font-family:'JetBrains Mono',monospace;font-size:.72rem;border:1px solid var(--line);border-radius:8px;padding:5px 10px;color:var(--muted)}
+
+.metrics{display:grid;grid-template-columns:repeat(auto-fit,minmax(190px,1fr));gap:16px;margin-top:8px}
+.metric{border:1px solid var(--line);border-radius:14px;background:var(--card);padding:20px}
+.metric b{display:block;font-family:Poppins,sans-serif;font-weight:900;font-size:1.7rem;color:var(--cyan);text-shadow:0 0 12px rgba(56,189,248,.4)}
+.metric.green b{color:var(--green);text-shadow:0 0 12px rgba(74,222,128,.4)}
+.metric.purple b{color:var(--purple);text-shadow:0 0 12px rgba(167,139,250,.4)}
+.metric.pink b{color:var(--pink);text-shadow:0 0 12px rgba(244,114,182,.4)}
+.metric small{color:var(--muted);font-size:.82rem}
+
+.deliv{display:grid;gap:14px;margin-top:8px}
+.deliv a.item{display:flex;justify-content:space-between;align-items:center;gap:18px;text-decoration:none;
+  border:1px solid var(--line);border-radius:14px;background:var(--card);padding:18px 20px;color:var(--ink)}
+.deliv a.item:hover{border-color:var(--cyan);box-shadow:0 0 22px rgba(56,189,248,.12)}
+.deliv .t{font-family:Poppins,sans-serif;font-weight:600}
+.deliv .d{color:var(--muted);font-size:.86rem;margin-top:2px}
+.deliv .go{font-family:'JetBrains Mono',monospace;color:var(--cyan);font-size:.8rem;white-space:nowrap}
+.note{border-left:3px solid var(--amber);padding:10px 16px;background:rgba(251,191,36,.06);border-radius:0 10px 10px 0;font-size:.9rem;color:var(--muted);margin-top:16px}
+
+.quotes{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin-top:8px}
+@media(max-width:760px){.quotes{grid-template-columns:1fr}}
+.quote{border:1px solid var(--line);border-radius:14px;background:var(--card);padding:20px;font-size:.92rem;color:var(--muted)}
+.quote b{color:var(--ink);font-weight:600}
+
+footer{border-top:1px solid var(--line);padding:44px 0 64px;color:var(--muted);font-size:.9rem}
+footer .links{display:flex;gap:20px;flex-wrap:wrap;margin-top:10px}
+@media (prefers-reduced-motion: no-preference){
+  .gamecard{animation:rise .6s ease-out both}
+  @keyframes rise{from{opacity:0;transform:translateY(14px)}to{opacity:1;transform:none}}
+}
+</style>
+</head>
+<body>
+
+<header class="wrap">
+  <div class="topbar">
+    <div class="logo">59 <span>SECONDS</span> · portfolio</div>
+    <nav aria-label="Sections">
+      <a href="#case">Case study</a><a href="#results">Results</a><a href="#deliverables">Deliverables</a><a href="#contact">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <div class="wrap hero">
+    <div class="hero-kicker">
+      <div>
+        <p class="eyebrow">Jacobus Barnard · MSIT Capstone · University of the People</p>
+        <h1>I built a speaking game that gets<br>ESL students to <span class="glow">actually talk.</span></h1>
+      </div>
+    </div>
+    <p class="hero-sub">59 Seconds is a projector-first classroom game: one card, five words, one student describing while the class guesses against the clock. Designed, built, secured, deployed and sold by one developer - me - and played by real students every week.</p>
+
+    <div class="gamecard" role="group" aria-label="Project highlights, styled as a 59 Seconds game card">
+      <div class="timer" aria-hidden="true"><b>59</b><small>SECONDS</small></div>
+      <ol>
+        <li><span class="n">1</span><span class="word"><a href="https://59seconds.live" rel="noopener">59seconds.live</a></span><span class="badge">Live product</span></li>
+        <li><span class="n">2</span><span class="word">2,880 cards · 12 packs</span><span class="badge">Region-localized</span></li>
+        <li><span class="n">3</span><span class="word">Lighthouse 96 / 100 / 93 / 100</span><span class="badge">Measured</span></li>
+        <li><span class="n">4</span><span class="word">39 unit tests + system suite</span><span class="badge">Tested</span></li>
+        <li><span class="n">5</span><span class="word">Real payments, verified refunds</span><span class="badge">In production</span></li>
+      </ol>
+    </div>
+
+    <div class="cta-row">
+      <a class="btn primary" href="https://59seconds.live" rel="noopener">Play the free decks</a>
+      <a class="btn" href="#deliverables">See the capstone deliverables</a>
+    </div>
+  </div>
+
+  <section id="case">
+    <div class="wrap">
+      <p class="eyebrow">Case study</p>
+      <h2>From a classroom problem to a paid product</h2>
+      <div class="cols">
+        <div>
+          <p><b>The problem.</b> As a university English teacher in Seoul I kept meeting students who could speak English but wouldn't - speaking anxiety is the biggest blocker in ESL classrooms, and most edtech makes it worse by isolating every learner behind their own screen with culturally generic content.</p>
+          <p style="margin-top:14px"><b>The idea.</b> Flip the model: one shared screen, students facing each other, and vocabulary drawn from the students' own region - Korean slang, local places, food they actually eat. A digital rebuild of the party game 30 Seconds, engineered for a projector and readable from the back row.</p>
+          <p style="margin-top:14px"><b>My role.</b> Everything: research, UX, frontend, backend, database and security design, payments, deployment, content curation, testing, and classroom trials with my own students and colleagues' classes at the British Council.</p>
+        </div>
+        <div>
+          <p><b>How it's built.</b> A serverless web app: React 19 + TanStack Start on Vercel, Supabase (PostgreSQL, auth, Row-Level Security), and Paddle as merchant of record. Every database write runs server-side with the service-role key; purchases become entitlements only through an HMAC-verified, IP-allowlisted webhook. Content ships through a CSV pipeline, so adding an entire pack is a data task, not a code change.</p>
+          <div class="stack" aria-label="Technology stack">
+            <span>React 19</span><span>TypeScript</span><span>TanStack Start</span><span>Vite</span><span>Tailwind CSS</span><span>Supabase</span><span>PostgreSQL + RLS</span><span>Paddle</span><span>Vercel</span><span>Vitest</span><span>Playwright</span><span>Git / GitHub</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="results">
+    <div class="wrap">
+      <p class="eyebrow">Results</p>
+      <h2>Measured, not claimed</h2>
+      <div class="metrics">
+        <div class="metric"><b>96</b><small>Lighthouse Performance (Accessibility 100, SEO 100)</small></div>
+        <div class="metric green"><b>1.2 s</b><small>Largest Contentful Paint on the live site</small></div>
+        <div class="metric purple"><b>~65 ms</b><small>Median warm database query latency</small></div>
+        <div class="metric pink"><b>39</b><small>Unit tests, plus a 3-level system test suite</small></div>
+        <div class="metric"><b>12</b><small>Region packs · 2,880 cards · 14,400 words</small></div>
+        <div class="metric green"><b>$ live</b><small>Production payments with verified refund handling</small></div>
+      </div>
+      <div class="quotes">
+        <div class="quote"><b>What testing found.</b> System testing against production caught a real regression - the end-of-round bell silently never fired - that 24 passing unit tests couldn't see. Root-caused, fixed, and locked in with a regression test that provably fails on the old code.</div>
+        <div class="quote"><b>What classrooms taught me.</b> Six shipped changes came straight from real lessons: bigger type for the back row, a Kids pack for ages 6–7, editable team names, a smarter shuffle, full-height controls, and the bell itself. A perfect automated accessibility score still wasn't readable to nine-year-olds - only users tell you that.</div>
+      </div>
+    </div>
+  </section>
+
+  <section id="deliverables">
+    <div class="wrap">
+      <p class="eyebrow">Capstone deliverables</p>
+      <h2>The full paper trail</h2>
+      <div class="deliv">
+        <a class="item" href="https://59seconds.live" rel="noopener">
+          <div><div class="t">Live application</div><div class="d">The working product - free decks playable instantly, no account needed.</div></div>
+          <span class="go">59seconds.live →</span>
+        </a>
+        <a class="item" href="https://jarfis-ai.github.io/report.pdf">
+          <div><div class="t">Final capstone report (PDF)</div><div class="d">47 pages: research, design, implementation, evaluation, testing, and maintenance across Chapters 1–6.</div></div>
+          <span class="go">Read →</span>
+        </a>
+        <a class="item" href="https://youtu.be/k3TpmWgSEoY">
+          <div><div class="t">Demo video</div><div class="d">A walkthrough of gameplay, the admin content pipeline, and the architecture.</div></div>
+          <span class="go">Watch →</span>
+        </a>
+        <a class="item" href="https://jarfis-ai.github.io/architecture.png">
+          <div><div class="t">System architecture</div><div class="d">Serverless architecture and ER diagrams, with the trust-boundary and payment-webhook design.</div></div>
+          <span class="go">View →</span>
+        </a>
+      </div>
+      <p class="note">The source repository is private because 59 Seconds is a live commercial product with paid content; instructor-level access is provided for academic review, and selected code excerpts appear in the report and demo video.</p>
+    </div>
+  </section>
+
+  <section id="contact">
+    <div class="wrap">
+      <p class="eyebrow">Contact</p>
+      <h2>Get in touch</h2>
+      <p>I'm a university English teacher and MSIT graduate student in Seoul who builds the tools I wish my classroom had. If you'd like to talk about 59 Seconds, edtech, or working together:</p>
+      <div class="cta-row">
+        <a class="btn primary" href="https://mail.google.com/mail/?view=cm&fs=1&to=admin.59seconds@gmail.com" target="_blank" rel="noopener">Email me</a>
+        <a class="btn" href="https://github.com/JarFis-ai" rel="noopener">GitHub</a>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <div>© 2026 Jacobus Barnard · 59 Seconds - MSIT 5910 Capstone, University of the People</div>
+    <div class="links"><a href="https://59seconds.live/pricing" rel="noopener">Pricing</a><a href="https://59seconds.live/terms" rel="noopener">Terms</a><a href="https://59seconds.live/privacy" rel="noopener">Privacy</a></div>
+  </div>
+</footer>
+
+</body>
+</html>
