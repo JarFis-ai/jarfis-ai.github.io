@@ -197,12 +197,12 @@ footer .academic{margin-top:14px;font-size:.8rem;opacity:.75}
     <div class="hero-content">
       <span class="pill">Web developer · Educator · Seoul</span>
       <h1>I built a speaking game that gets ESL students to <span class="glow">actually talk.</span></h1>
-      <p class="hero-sub">59 Seconds is a projector-first classroom game: one card, five words, one student describing while the class guesses against the clock. Designed, built, secured, deployed and sold by one developer - me - and played by real students every week.</p>
+      <p class="hero-sub">59 Seconds is a projector-first classroom game: one card, five words, one student describing while the class guesses against the clock. Designed and shipped by me, and used with my own classes most weeks.</p>
       <div class="cta-row">
         <a class="btn primary" href="https://59seconds.live" rel="noopener">Play the free decks</a>
         <a class="btn" href="#case">Read the case study</a>
       </div>
-      <p class="hero-trust">Live product · Real payments · 2,880 cards across 12 region packs</p>
+      <p class="hero-trust">Live product · 3,360 cards across 15 packs</p>
     </div>
   </header>
 
@@ -211,10 +211,10 @@ footer .academic{margin-top:14px;font-size:.8rem;opacity:.75}
       <div class="timer" aria-hidden="true"><b>59</b><small>SECONDS</small></div>
       <ol>
         <li><span class="n">1</span><span class="word"><a href="https://59seconds.live" rel="noopener">59seconds.live</a></span><span class="badge">Live product</span></li>
-        <li><span class="n">2</span><span class="word">2,880 cards · 12 packs</span><span class="badge">Region-localized</span></li>
+        <li><span class="n">2</span><span class="word">3,360 cards · 15 packs</span><span class="badge">Region-localized</span></li>
         <li><span class="n">3</span><span class="word">Lighthouse 96 / 100 / 93 / 100</span><span class="badge">Measured</span></li>
         <li><span class="n">4</span><span class="word">39 unit tests + system suite</span><span class="badge">Tested</span></li>
-        <li><span class="n">5</span><span class="word">Real payments, verified refunds</span><span class="badge">In production</span></li>
+        <li><span class="n">5</span><span class="word">A free deck in every pack, no account</span><span class="badge">Free to try</span></li>
       </ol>
     </div>
   </div>
@@ -229,7 +229,7 @@ footer .academic{margin-top:14px;font-size:.8rem;opacity:.75}
         <div class="about-text">
           <p>I teach English at a university in Seoul, and I build the tools I wish my classroom had. 59 Seconds started as a problem I hit every single week: students who <em>could</em> speak English but wouldn't, and edtech that made it worse by putting each of them behind a separate screen.</p>
           <p>So I built the opposite. One shared screen, students facing each other, and vocabulary drawn from their own region. Then I kept going past the prototype - through security design, payments, automated testing and a live deployment - because a tool that only works in a demo does not help anyone on a Tuesday morning.</p>
-          <p>The result is a real commercial product with paying customers, not a portfolio exercise. Everything on this page is something I designed, wrote, tested or shipped myself.</p>
+          <p>The result is a live product I use with my own classes, not a portfolio exercise. I designed and directed it: the code was written by AI coding agents (Lovable for the first scaffold, then Claude Code), and I set the tests and checks it had to pass.</p>
         </div>
         <aside class="profile-card">
           <div class="avatar">
@@ -253,14 +253,14 @@ footer .academic{margin-top:14px;font-size:.8rem;opacity:.75}
     <div class="wrap">
       <div class="section-head">
         <p class="section-label">Case study</p>
-        <h2>From a classroom problem to a paid product</h2>
-        <p class="section-intro">The full story of how one recurring teaching frustration became a deployed, revenue-generating web application.</p>
+        <h2>From a classroom problem to a live product</h2>
+        <p class="section-intro">The full story of how one recurring teaching frustration became a deployed web application.</p>
       </div>
       <div class="cols">
         <div>
           <p><b>The problem.</b> As a university English teacher in Seoul I kept meeting students who could speak English but wouldn't - speaking anxiety is the biggest blocker in ESL classrooms, and most edtech makes it worse by isolating every learner behind their own screen with culturally generic content.</p>
           <p><b>The idea.</b> Flip the model: one shared screen, students facing each other, and vocabulary drawn from the students' own region - Korean slang, local places, food they actually eat. A digital rebuild of the party game 30 Seconds, engineered for a projector and readable from the back row.</p>
-          <p><b>My role.</b> Everything: research, UX, frontend, backend, database and security design, payments, deployment, content curation, testing, and classroom trials with my own students and colleagues' classes at the British Council.</p>
+          <p><b>My role.</b> Product owner and designer: research, UX, the specifications, the tests and acceptance checks, content curation, and informal trials with my own classes, plus colleagues who tried it in theirs. AI coding agents wrote the code under my direction.</p>
         </div>
         <div>
           <p><b>How it's built.</b> A serverless web app: React 19 + TanStack Start on Vercel, Supabase (PostgreSQL, auth, Row-Level Security), and Paddle as merchant of record. Every database write runs server-side with the service-role key; purchases become entitlements only through an HMAC-verified, IP-allowlisted webhook. Content ships through a CSV pipeline, so adding an entire pack is a data task, not a code change.</p>
@@ -291,7 +291,7 @@ footer .academic{margin-top:14px;font-size:.8rem;opacity:.75}
         </figure>
         <figure class="figure">
           <img src="assets/screen-packs.png" alt="The 59 Seconds home screen showing region packs as large cards: World, Kids, Korea, South Africa, USA, UK, China and Canada." width="1080" height="842" loading="lazy">
-          <figcaption><b>Region packs.</b> Twelve packs of localized vocabulary, each with a free deck that plays instantly with no account. The Kids pack for ages 6-7 exists because nine-year-olds told me the original content was too hard.</figcaption>
+          <figcaption><b>Region packs.</b> Fifteen packs of localized vocabulary, each with a free deck that plays instantly with no account. The Kids pack for ages 6-7 exists because nine-year-olds told me the original content was too hard.</figcaption>
         </figure>
       </div>
     </div>
@@ -302,15 +302,15 @@ footer .academic{margin-top:14px;font-size:.8rem;opacity:.75}
       <div class="section-head">
         <p class="section-label">Results</p>
         <h2>Measured, not claimed</h2>
-        <p class="section-intro">Every number below comes from a tool or a transaction, not an estimate.</p>
+        <p class="section-intro">Every number below comes from a tool or a database count, not an estimate.</p>
       </div>
       <div class="metrics">
         <div class="metric"><b>96</b><small>Lighthouse Performance (Accessibility 100, SEO 100)</small></div>
         <div class="metric green"><b>1.2 s</b><small>Largest Contentful Paint on the live site</small></div>
         <div class="metric purple"><b>~65 ms</b><small>Median warm database query latency</small></div>
         <div class="metric pink"><b>39</b><small>Unit tests, plus a 3-level system test suite</small></div>
-        <div class="metric"><b>12</b><small>Region packs · 2,880 cards · 14,400 words</small></div>
-        <div class="metric green"><b>$ live</b><small>Production payments with verified refund handling</small></div>
+        <div class="metric"><b>15</b><small>Packs · 3,360 cards · 16,800 words</small></div>
+        <div class="metric green"><b>Free</b><small>The first deck of every pack, no account needed</small></div>
       </div>
       <div class="quotes">
         <div class="quote"><p><b>What testing found.</b> System testing against production caught a real regression - the end-of-round bell silently never fired - that 24 passing unit tests couldn't see. Root-caused, fixed, and locked in with a regression test that provably fails on the old code.</p></div>
@@ -332,7 +332,7 @@ footer .academic{margin-top:14px;font-size:.8rem;opacity:.75}
           <span class="go">59seconds.live →</span>
         </a>
         <a class="item" href="https://jarfis-ai.github.io/report.pdf">
-          <div><div class="t">Full project report (PDF)</div><div class="d">59 pages: research, design, implementation, evaluation, testing, and maintenance across Chapters 1-8.</div></div>
+          <div><div class="t">Full project report (PDF)</div><div class="d">59 pages: research, design, implementation, evaluation, testing, and maintenance across Chapters 1-8. See the dated correction below.</div></div>
           <span class="go">Read →</span>
         </a>
         <a class="item" href="https://youtu.be/k3TpmWgSEoY">
@@ -344,7 +344,8 @@ footer .academic{margin-top:14px;font-size:.8rem;opacity:.75}
           <span class="go">View →</span>
         </a>
       </div>
-      <p class="note">The source repository is private because 59 Seconds is a live commercial product with paid content; instructor-level access is provided for academic review, and selected code excerpts appear in the report and demo video.</p>
+      <p class="note"><b>Correction to the report, 7 October 2026.</b> The report says a real purchase and a real refund were processed, with access granted and then revoked by the payment webhook. The project record shows the only live purchase was my own go-live test on 17 July 2026. It was refunded, but the refund did not remove access, because the webhook was not yet listening for refund events; that access was removed on 16 September 2026. 59 Seconds never had paying customers, and pack sales ended on 23 September 2026. The report itself is unchanged, as submitted.</p>
+      <p class="note">The source repository is private; instructor-level access is provided for academic review, and selected code excerpts appear in the report and demo video.</p>
     </div>
   </section>
 
@@ -356,7 +357,7 @@ footer .academic{margin-top:14px;font-size:.8rem;opacity:.75}
       </div>
       <p>I'm a university English teacher and developer in Seoul who builds the tools I wish my classroom had. If you'd like to talk about 59 Seconds, edtech, or working together:</p>
       <div class="cta-row">
-        <a class="btn primary" href="mailto:admin.59seconds@gmail.com">Email me</a>
+        <a class="btn primary" href="mailto:hello@classcookies.com">Email me</a>
         <a class="btn" href="https://github.com/JarFis-ai" rel="noopener">GitHub</a>
       </div>
     </div>
