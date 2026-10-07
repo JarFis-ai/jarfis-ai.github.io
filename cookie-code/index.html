@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="en" class="no-js">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Cookie Code | Jacobus Barnard</title>
+<meta name="description" content="Cookie Code: the teacher sets a secret word of three to five letters and the whole class cracks it together on one screen. Free, no account, no student devices. Part of Class Cookies.">
+<link rel="canonical" href="https://jarfis-ai.github.io/cookie-code/">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Cookie Code: a word-guessing game for the whole class">
+<meta property="og:description" content="Cookie Code: the teacher sets a secret word of three to five letters and the whole class cracks it together on one screen. Free, no account, no student devices. Part of Class Cookies.">
+<meta property="og:url" content="https://jarfis-ai.github.io/cookie-code/">
+<meta property="og:image" content="https://jarfis-ai.github.io/assets/og/cookie-code.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="theme-color" content="#050B14">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@500&family=Poppins:wght@600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/assets/site.css">
+<script src="/assets/site.js" defer></script>
+</head>
+<body class="accent-lilac">
+<a class="sr-only" href="#main">Skip to content</a>
+<header class="nav">
+  <div class="wrap">
+    <a class="brand" href="/">Jacobus <span>Barnard</span></a>
+    <nav aria-label="Main"><ul><li><a class="link" href="/class-cookies/">Class Cookies</a></li><li><a class="link" href="/59-seconds/">59 Seconds</a></li><li><a class="link" href="/taco-trivia/">Taco Trivia</a></li><li><a class="link" href="/mango-mafia/">Mango Mafia</a></li><li><a class="link" href="/super-mushroom-man/">Super Mushroom Man</a></li><li><a class="link" href="/cookie-code/" aria-current="page">Cookie Code</a></li><li><a class="link" href="/#how">How I work</a></li></ul></nav>
+  </div>
+</header>
+<main id="main">
+<section class="hero">
+  <div class="wrap hero-grid">
+    <div>
+      <span class="pill">Live · part of Class Cookies · free</span>
+      <h1>Cookie <span class="glow">Code</span></h1>
+      <p class="lede">A word-guessing game for the whole class on one screen. The teacher sets a secret word; the class calls out guesses, the teacher types them, and the tiles show which letters are right.</p>
+      <div class="btns">
+        <a class="btn primary" href="https://cookiecode.classcookies.com/" rel="noopener">Play Cookie Code ↗</a>
+      </div>
+    </div>
+    <div class="hero-shot"><img src="/assets/img/cookie-code/play.webp" width="1600" height="900" fetchpriority="high" alt="Two guesses on the board, TRAIN and CLASP, with coloured tiles and an on-screen keyboard."></div>
+  </div>
+  <div class="wrap">
+    <div class="facts">
+      <div class="fact"><b>3–5</b><span>letters in the secret word</span></div>
+      <div class="fact"><b>4–6</b><span>guesses, one more than the word's length</span></div>
+      <div class="fact"><b>57</b><span>automated tests passing</span></div>
+      <div class="fact"><b>0</b><span>servers: a static site with no account and no data</span></div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <div class="gallery">
+      <figure class="shot reveal"><img src="/assets/img/cookie-code/setup.webp" width="1600" height="900" loading="lazy" decoding="async" alt="'Set the secret word': five hidden letters with a Peek button."><figcaption><b>Set the word.</b> Letters stay hidden as the teacher types, with a Peek button to check.</figcaption></figure>
+      <figure class="shot reveal"><img src="/assets/img/cookie-code/win.webp" width="1600" height="900" loading="lazy" decoding="async" alt="'Code cracked!' The secret word PLANT, cracked in 3 of 6."><figcaption><b>Cracked.</b> The next word can be typed straight onto the result card.</figcaption></figure>
+    </div>
+    <div class="cols" style="margin-top:32px">
+      <div class="reveal">
+        <span class="label">A small first version</span>
+        <p>Cookie Code was written in one evening, 15 September 2026, from a design handed over beforehand: eight commits, each with a Claude co-author line. It has had no changes since.</p>
+        <p>By design it has no teams, scores or sound, and keeps nothing between visits. The game rules live outside the screens so the tests can check them, including the standard rules for repeated letters.</p>
+      </div>
+      <div class="reveal">
+        <span class="label">Measured, 7 October 2026</span>
+        <p>Lighthouse Performance 100 on desktop and 99 on mobile; 174 kB for the whole page. Builds clean, with no lint problems.</p>
+        <div class="chips"><span>Vite</span><span>React 19</span><span>TypeScript</span><span>Vitest</span><span>Vercel</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+</main>
+<footer>
+  <div class="wrap">
+    <div>
+      <div>&copy; 2026 Jacobus Barnard &middot; English teacher in Seoul</div>
+      <div class="small" style="margin-top:6px">Screens from a signed-in teacher come from a test copy filled with made-up data. No real teacher or student appears on this site.</div>
+    </div>
+    <div class="links">
+      <a href="mailto:hello@classcookies.com">hello@classcookies.com</a>
+      <a href="https://github.com/JarFis-ai" rel="noopener">GitHub</a>
+      <a href="https://classcookies.com/" rel="noopener">classcookies.com</a>
+    </div>
+  </div>
+</footer>
+</body>
+</html>

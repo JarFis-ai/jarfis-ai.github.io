@@ -1,0 +1,222 @@
+{
+  "class-cookies/home": {
+    "width": 1600,
+    "height": 827,
+    "kb": 54
+  },
+  "class-cookies/what-you-get": {
+    "width": 1366,
+    "height": 599,
+    "kb": 48
+  },
+  "class-cookies/games": {
+    "width": 1366,
+    "height": 596,
+    "kb": 52
+  },
+  "class-cookies/tools": {
+    "width": 1366,
+    "height": 768,
+    "kb": 53
+  },
+  "class-cookies/donut": {
+    "width": 1366,
+    "height": 768,
+    "kb": 49
+  },
+  "class-cookies/worksheets": {
+    "width": 1366,
+    "height": 768,
+    "kb": 87
+  },
+  "class-cookies/pricing": {
+    "width": 1366,
+    "height": 768,
+    "kb": 50
+  },
+  "class-cookies/class": {
+    "width": 1366,
+    "height": 768,
+    "kb": 45
+  },
+  "class-cookies/comments": {
+    "width": 1366,
+    "height": 768,
+    "kb": 41
+  },
+  "class-cookies/scoreboard": {
+    "width": 1600,
+    "height": 900,
+    "kb": 51
+  },
+  "class-cookies/teams": {
+    "width": 1600,
+    "height": 900,
+    "kb": 38
+  },
+  "class-cookies/word-lists": {
+    "width": 1366,
+    "height": 768,
+    "kb": 38
+  },
+  "class-cookies/calendar": {
+    "width": 1366,
+    "height": 768,
+    "kb": 41
+  },
+  "class-cookies/staffroom": {
+    "width": 1366,
+    "height": 768,
+    "kb": 68
+  },
+  "class-cookies/free-limit": {
+    "width": 1366,
+    "height": 768,
+    "kb": 38
+  },
+  "59-seconds/play": {
+    "width": 1600,
+    "height": 900,
+    "kb": 27
+  },
+  "59-seconds/teams": {
+    "width": 1600,
+    "height": 900,
+    "kb": 33
+  },
+  "59-seconds/time-up": {
+    "width": 1600,
+    "height": 900,
+    "kb": 34
+  },
+  "59-seconds/how-it-works": {
+    "width": 512,
+    "height": 770,
+    "kb": 31
+  },
+  "59-seconds/flags": {
+    "width": 1600,
+    "height": 492,
+    "kb": 41
+  },
+  "59-seconds/pack-header": {
+    "width": 1600,
+    "height": 162,
+    "kb": 10
+  },
+  "taco-trivia/board": {
+    "width": 1600,
+    "height": 900,
+    "kb": 91
+  },
+  "taco-trivia/question": {
+    "width": 1600,
+    "height": 900,
+    "kb": 21
+  },
+  "taco-trivia/answer": {
+    "width": 1600,
+    "height": 900,
+    "kb": 14
+  },
+  "taco-trivia/setup": {
+    "width": 1366,
+    "height": 768,
+    "kb": 25
+  },
+  "taco-trivia/hero": {
+    "width": 1600,
+    "height": 136,
+    "kb": 9
+  },
+  "mango-mafia/home": {
+    "width": 1600,
+    "height": 900,
+    "kb": 65
+  },
+  "mango-mafia/roster": {
+    "width": 1600,
+    "height": 900,
+    "kb": 65
+  },
+  "mango-mafia/roles": {
+    "width": 1600,
+    "height": 900,
+    "kb": 44
+  },
+  "mango-mafia/reveal": {
+    "width": 1600,
+    "height": 900,
+    "kb": 33
+  },
+  "mango-mafia/night": {
+    "width": 1600,
+    "height": 900,
+    "kb": 54
+  },
+  "mango-mafia/morning": {
+    "width": 1600,
+    "height": 900,
+    "kb": 20
+  },
+  "mango-mafia/vote": {
+    "width": 1600,
+    "height": 900,
+    "kb": 46
+  },
+  "mango-mafia/win": {
+    "width": 1600,
+    "height": 900,
+    "kb": 51
+  },
+  "super-mushroom-man/setup": {
+    "width": 1366,
+    "height": 542,
+    "kb": 54
+  },
+  "super-mushroom-man/board": {
+    "width": 1600,
+    "height": 900,
+    "kb": 30
+  },
+  "cookie-code/setup": {
+    "width": 1600,
+    "height": 900,
+    "kb": 51
+  },
+  "cookie-code/play": {
+    "width": 1600,
+    "height": 900,
+    "kb": 53
+  },
+  "cookie-code/win": {
+    "width": 1600,
+    "height": 900,
+    "kb": 46
+  },
+  "profile/headshot": {
+    "width": 571,
+    "height": 437,
+    "kb": 17
+  },
+  "diagrams/architecture": {
+    "width": 2000,
+    "height": 1325,
+    "kb": 190
+  },
+  "diagrams/er-platform": {
+    "width": 2000,
+    "height": 1400,
+    "kb": 199
+  },
+  "diagrams/access": {
+    "width": 2000,
+    "height": 800,
+    "kb": 96
+  },
+  "diagrams/workflow": {
+    "width": 2000,
+    "height": 950,
+    "kb": 127
+  }
+}

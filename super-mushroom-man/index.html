@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="en" class="no-js">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Super Mushroom Man | Jacobus Barnard</title>
+<meta name="description" content="Super Mushroom Man: a projector-first team quiz for ESL classes. A right answer opens a block: coins, or one of seven surprise outcomes. Free to play, no login. Part of Class Cookies.">
+<link rel="canonical" href="https://jarfis-ai.github.io/super-mushroom-man/">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Super Mushroom Man: a team quiz where the points are unstable">
+<meta property="og:description" content="Super Mushroom Man: a projector-first team quiz for ESL classes. A right answer opens a block: coins, or one of seven surprise outcomes. Free to play, no login. Part of Class Cookies.">
+<meta property="og:url" content="https://jarfis-ai.github.io/super-mushroom-man/">
+<meta property="og:image" content="https://jarfis-ai.github.io/assets/og/super-mushroom-man.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="theme-color" content="#050B14">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@500&family=Poppins:wght@600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/assets/site.css">
+<script src="/assets/site.js" defer></script>
+</head>
+<body class="accent-green">
+<a class="sr-only" href="#main">Skip to content</a>
+<header class="nav">
+  <div class="wrap">
+    <a class="brand" href="/">Jacobus <span>Barnard</span></a>
+    <nav aria-label="Main"><ul><li><a class="link" href="/class-cookies/">Class Cookies</a></li><li><a class="link" href="/59-seconds/">59 Seconds</a></li><li><a class="link" href="/taco-trivia/">Taco Trivia</a></li><li><a class="link" href="/mango-mafia/">Mango Mafia</a></li><li><a class="link" href="/super-mushroom-man/" aria-current="page">Super Mushroom Man</a></li><li><a class="link" href="/cookie-code/">Cookie Code</a></li><li><a class="link" href="/#how">How I work</a></li></ul></nav>
+  </div>
+</header>
+<main id="main">
+<section class="hero">
+  <div class="wrap hero-grid">
+    <div>
+      <span class="pill">Live · part of Class Cookies</span>
+      <h1>Super Mushroom <span class="glow">Man</span></h1>
+      <p class="lede">A projector-first team quiz for ESL classes. A situation appears and the team says what they would say next; the teacher judges the answer. A right answer opens a block, and the block decides the reward.</p>
+      <div class="btns">
+        <a class="btn primary" href="https://supermushroomman.classcookies.com/" rel="noopener">Play Super Mushroom Man ↗</a>
+      </div>
+    </div>
+    <div class="hero-shot"><img src="/assets/img/super-mushroom-man/board.webp" width="1600" height="900" fetchpriority="high" alt="The game board: 24 lettered blocks and four teams with fruit icons."></div>
+  </div>
+  <div class="wrap">
+    <div class="facts">
+      <div class="fact"><b>270</b><span>prompts free: three decks, each at three levels</span></div>
+      <div class="fact"><b>7</b><span>mystery outcomes, from doubling a score to swapping it</span></div>
+      <div class="fact"><b>2–8</b><span>teams, on a board of 12 to 24 blocks</span></div>
+      <div class="fact"><b>216</b><span>automated tests passing</span></div>
+    </div>
+    <p class="asof">As of 7 October 2026.</p>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <div class="cols">
+      <div class="reveal">
+        <span class="label">How a round works</span>
+        <h2>The points are never safe</h2>
+        <p style="margin-top:14px">A right answer pays one to five coins, or opens a mystery block with one of seven outcomes. A team in last place is never out of it, which is what keeps a whole class watching.</p>
+        <p>Every scoring rule is a small, pure function with its own tests, and the game's randomness comes from a seeded generator, so any game can be replayed exactly to check what happened.</p>
+        <p>The game reads its decks from Class Cookies. A subscriber can also play with sentence lists from My Classroom.</p>
+      </div>
+      <figure class="shot reveal"><img src="/assets/img/super-mushroom-man/setup.webp" width="1366" height="542" loading="lazy" decoding="async" alt="The setup screen: sentence deck, level, teams, board size, and mystery block, sound and timer switches."><figcaption><b>Setup.</b> Everything is set by default: pick a deck and a level, or just press start.</figcaption></figure>
+    </div>
+    <p class="reveal" style="margin-top:28px">Built between 17 August and 6 October 2026: 38 commits on the production branch, 34 with a Claude co-author line. Lighthouse Performance on 7 October: 100 on desktop, 95 on mobile.</p>
+    <div class="chips reveal">
+      <span>Next.js 16</span><span>React 19</span><span>TypeScript</span><span>Tailwind CSS 4</span><span>Vitest</span><span>Web Audio API</span><span>Vercel (Seoul)</span>
+    </div>
+  </div>
+</section>
+</main>
+<footer>
+  <div class="wrap">
+    <div>
+      <div>&copy; 2026 Jacobus Barnard &middot; English teacher in Seoul</div>
+      <div class="small" style="margin-top:6px">Screens from a signed-in teacher come from a test copy filled with made-up data. No real teacher or student appears on this site.</div>
+    </div>
+    <div class="links">
+      <a href="mailto:hello@classcookies.com">hello@classcookies.com</a>
+      <a href="https://github.com/JarFis-ai" rel="noopener">GitHub</a>
+      <a href="https://classcookies.com/" rel="noopener">classcookies.com</a>
+    </div>
+  </div>
+</footer>
+</body>
+</html>
