@@ -202,7 +202,7 @@
   "diagrams/architecture": {
     "width": 2000,
     "height": 1325,
-    "kb": 190
+    "kb": 191
   },
   "diagrams/er-platform": {
     "width": 2000,
@@ -212,7 +212,7 @@
   "diagrams/access": {
     "width": 2000,
     "height": 800,
-    "kb": 99
+    "kb": 96
   },
   "diagrams/workflow": {
     "width": 2000,
