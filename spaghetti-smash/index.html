@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="en" class="no-js">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Spaghetti Smash | Jacobus Barnard</title>
+<meta name="description" content="Spaghetti Smash: a whack-a-mole word game for teams on one classroom screen. Free word lists for everyone; subscribed teachers play with their own lists from My Classroom. Part of Class Cookies.">
+<link rel="canonical" href="https://jarfis-ai.github.io/spaghetti-smash/">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Spaghetti Smash: a whack-a-mole word game for teams">
+<meta property="og:description" content="Spaghetti Smash: a whack-a-mole word game for teams on one classroom screen. Free word lists for everyone; subscribed teachers play with their own lists from My Classroom. Part of Class Cookies.">
+<meta property="og:url" content="https://jarfis-ai.github.io/spaghetti-smash/">
+<meta property="og:image" content="https://jarfis-ai.github.io/assets/og/spaghetti-smash.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="theme-color" content="#050B14">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@500&family=Poppins:wght@600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/assets/site.css">
+<script src="/assets/site.js" defer></script>
+</head>
+<body class="accent-tomato">
+<a class="sr-only" href="#main">Skip to content</a>
+<header class="nav">
+  <div class="wrap">
+    <a class="brand" href="/">Jacobus <span>Barnard</span></a>
+    <nav aria-label="Main"><ul><li><a class="link" href="/class-cookies/">Class Cookies</a></li><li><a class="link" href="/59-seconds/">59 Seconds</a></li><li><a class="link" href="/taco-trivia/">Taco Trivia</a></li><li><a class="link" href="/mango-mafia/">Mango Mafia</a></li><li><a class="link" href="/super-mushroom-man/">Super Mushroom Man</a></li><li><a class="link" href="/cookie-code/">Cookie Code</a></li><li><a class="link" href="/spaghetti-smash/" aria-current="page">Spaghetti Smash</a></li><li><a class="link" href="/#how">How I build</a></li></ul></nav>
+  </div>
+</header>
+<main id="main">
+<section class="hero">
+  <div class="wrap hero-grid">
+    <div>
+      <span class="pill">Live · part of Class Cookies · free</span>
+      <h1>Spaghetti <span class="glow">Smash</span></h1>
+      <p class="lede">A whack-a-mole word game for teams on one screen. Food characters pop up from bowls holding word signs; one student per turn smashes the right words with a frying pan before they hide.</p>
+      <div class="btns">
+        <a class="btn primary" href="https://spaghettismash.classcookies.com/" rel="noopener">Play Spaghetti Smash ↗</a>
+      </div>
+    </div>
+    <div class="hero-shot"><img src="/assets/img/spaghetti-smash/logo.webp" width="1600" height="900" fetchpriority="high" alt="The Spaghetti Smash logo: a smiling tomato holding a frying pan above a swirl of spaghetti."></div>
+  </div>
+  <div class="wrap">
+    <div class="facts">
+      <div class="fact"><b>3</b><span>free word lists: verbs, nouns and adjectives, 48 words each</span></div>
+      <div class="fact"><b>2–6</b><span>teams taking turns</span></div>
+      <div class="fact"><b>5</b><span>bonus cards, such as double points and a frozen clock</span></div>
+      <div class="fact"><b>203</b><span>automated tests passing</span></div>
+    </div>
+    <p class="asof">Counted on 19 October 2026 from the live site and a fresh copy of the production branch.</p>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <div class="gallery">
+      <figure class="shot reveal"><img src="/assets/img/spaghetti-smash/setup.webp" width="1600" height="900" loading="lazy" decoding="async" alt="Setup: the Verbs, Nouns and Adjectives lists, a locked 'Use your own lists' box with 'Sign in at Class Cookies', three teams, and turn time, rounds and speed."><figcaption><b>Setup.</b> Pick the words, make teams, set the time, rounds and speed.</figcaption></figure>
+      <figure class="shot reveal"><img src="/assets/img/spaghetti-smash/play.webp" width="1600" height="900" loading="lazy" decoding="async" alt="A turn: 'Smash the VERBS!' above eight bowls, with characters holding the words 'hard' and 'pencil', a 55-second clock and three team scores."><figcaption><b>A turn.</b> A right word scores a point; a wrong one costs a point.</figcaption></figure>
+    </div>
+    <div class="cols" style="margin-top:32px">
+      <div class="reveal">
+        <span class="label">Free lists, or your own</span>
+        <p>Everyone can play the three free lists with no account. A teacher with a Class Cookies subscription can play their own word lists from My Classroom instead, and choose which free list supplies the wrong words.</p>
+        <p>Spaghetti Smash was built on 19 October 2026 from a design handed over beforehand: ten commits on the production branch, each with a Claude co-author line. The game reads a teacher's lists with the teacher's own sign-in and never writes to the platform.</p>
+      </div>
+      <div class="reveal">
+        <span class="label">Checked, 19 October 2026</span>
+        <p>203 automated tests passing; typecheck and lint with no errors. Every screen is laid out for a classroom TV and scaled to fit the window, so nothing a class sees ever scrolls.</p>
+        <div class="chips"><span>Next.js 16</span><span>React 19</span><span>TypeScript</span><span>Vitest</span><span>Vercel (Seoul)</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+</main>
+<footer>
+  <div class="wrap">
+    <div>
+      <div>&copy; 2026 Jacobus Barnard &middot; English teacher in Seoul</div>
+      <div class="small" style="margin-top:6px">Screens from a signed-in teacher come from a test copy filled with made-up data. No real teacher or student appears on this site.</div>
+    </div>
+    <div class="links">
+      <a href="mailto:hello@classcookies.com">hello@classcookies.com</a>
+      <a href="https://github.com/JarFis-ai" rel="noopener">GitHub</a>
+      <a href="https://www.linkedin.com/in/jaco-barnard-707174428" rel="noopener">LinkedIn</a>
+      <a href="https://classcookies.com/" rel="noopener">classcookies.com</a>
+    </div>
+  </div>
+</footer>
+</body>
+</html>
