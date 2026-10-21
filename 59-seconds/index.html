@@ -27,7 +27,7 @@
 <header class="nav">
   <div class="wrap">
     <a class="brand" href="/">Jacobus <span>Barnard</span></a>
-    <nav aria-label="Main"><ul><li><a class="link" href="/class-cookies/">Class Cookies</a></li><li><a class="link" href="/59-seconds/" aria-current="page">59 Seconds</a></li><li><a class="link" href="/taco-trivia/">Taco Trivia</a></li><li><a class="link" href="/mango-mafia/">Mango Mafia</a></li><li><a class="link" href="/super-mushroom-man/">Super Mushroom Man</a></li><li><a class="link" href="/cookie-code/">Cookie Code</a></li><li><a class="link" href="/spaghetti-smash/">Spaghetti Smash</a></li><li><a class="link" href="/#how">How I build</a></li></ul></nav>
+    <nav aria-label="Main"><ul><li><a class="link" href="/class-cookies/">Class Cookies</a></li><li><a class="link" href="/59-seconds/" aria-current="page">59 Seconds</a></li><li><a class="link" href="/taco-trivia/">Taco Trivia</a></li><li><a class="link" href="/mango-mafia/">Mango Mafia</a></li><li><a class="link" href="/super-mushroom-man/">Super Mushroom Man</a></li><li><a class="link" href="/cookie-code/">Cookie Code</a></li><li><a class="link" href="/spaghetti-smash/">Spaghetti Smash</a></li><li><a class="link" href="/hangspam/">HangSpam</a></li><li><a class="link" href="/#how">How I build</a></li></ul></nav>
   </div>
 </header>
 <main id="main">
@@ -49,9 +49,9 @@
       <div class="fact"><b>15</b><span>packs, most of them local to one country or region</span></div>
       <div class="fact"><b>110+</b><span>decks across the packs</span></div>
       <div class="fact"><b>16,800+</b><span>words; one free deck per pack, no account</span></div>
-      <div class="fact"><b>111</b><span>automated tests passing</span></div>
+      <div class="fact"><b>194</b><span>automated tests passing</span></div>
     </div>
-    <p class="asof">Packs, decks and words as shown on classcookies.com on 19 October 2026; tests counted on 7 October 2026.</p>
+    <p class="asof">Packs, decks and words as shown on classcookies.com on 21 October 2026; tests counted the same day from a fresh copy of the production branch.</p>
   </div>
 </section>
 
@@ -110,10 +110,10 @@
     <div class="cols reveal">
       <div>
         <h3>What testing found</h3>
-        <p class="muted" style="margin-top:8px">In August, system tests run against the live site found that the end-of-round bell never rang, although every unit test passed. The timer logic was pulled into two small functions, and a regression test now plays whole rounds at six lengths and expects exactly one ring. The unit suite has grown from 24 tests then to 111 today, all passing.</p>
+        <p class="muted" style="margin-top:8px">In August, system tests run against the live site found that the end-of-round bell never rang, although every unit test passed. The timer logic was pulled into two small functions, and a regression test now plays whole rounds at six lengths and expects exactly one ring. The unit suite has grown from 24 tests then to 111 on 7 October 2026 and 194 on 21 October, all passing.</p>
       </div>
       <div>
-        <h3>Speed today</h3>
+        <h3>Speed on 7 October</h3>
         <p class="muted" style="margin-top:8px">On 7 October 2026 the play screen, the page a class actually sees, scored 98 for Lighthouse Performance on desktop and 81 on mobile. That day the home page scored 81 on desktop, down from the 96 in the report, because it loaded about 2.4 MB of images, mostly two large tiles. Later on 7 October the tiles were replaced with resized copies; the project's own notes record the page weight falling from 2,653 KB to 361 KB and the score rising to 95 on desktop and 78 on mobile (Lighthouse 12.8.2, so not directly comparable). From Seoul the play page starts arriving in about 135 ms.</p>
       </div>
     </div>

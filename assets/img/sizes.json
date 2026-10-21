@@ -5,9 +5,9 @@
     "kb": 54
   },
   "class-cookies/what-you-get": {
-    "width": 1366,
-    "height": 599,
-    "kb": 48
+    "width": 1351,
+    "height": 641,
+    "kb": 59
   },
   "class-cookies/games": {
     "width": 1366,
@@ -17,7 +17,7 @@
   "class-cookies/tools": {
     "width": 1366,
     "height": 768,
-    "kb": 53
+    "kb": 52
   },
   "class-cookies/donut": {
     "width": 1366,
@@ -27,7 +27,7 @@
   "class-cookies/worksheets": {
     "width": 1366,
     "height": 768,
-    "kb": 87
+    "kb": 78
   },
   "class-cookies/pricing": {
     "width": 1366,
@@ -204,10 +204,30 @@
     "height": 900,
     "kb": 87
   },
+  "spaghetti-smash/next-up": {
+    "width": 1600,
+    "height": 900,
+    "kb": 48
+  },
   "spaghetti-smash/play": {
     "width": 1600,
     "height": 900,
-    "kb": 77
+    "kb": 81
+  },
+  "hangspam/logo": {
+    "width": 1600,
+    "height": 900,
+    "kb": 75
+  },
+  "hangspam/setup": {
+    "width": 1600,
+    "height": 900,
+    "kb": 58
+  },
+  "hangspam/play": {
+    "width": 1600,
+    "height": 900,
+    "kb": 53
   },
   "profile/headshot": {
     "width": 571,
@@ -216,8 +236,8 @@
   },
   "diagrams/architecture": {
     "width": 2000,
-    "height": 1325,
-    "kb": 191
+    "height": 1375,
+    "kb": 208
   },
   "diagrams/er-platform": {
     "width": 2000,
@@ -226,8 +246,8 @@
   },
   "diagrams/access": {
     "width": 2000,
-    "height": 800,
-    "kb": 96
+    "height": 813,
+    "kb": 107
   },
   "diagrams/workflow": {
     "width": 2000,

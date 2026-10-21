@@ -27,7 +27,7 @@
 <header class="nav">
   <div class="wrap">
     <a class="brand" href="/">Jacobus <span>Barnard</span></a>
-    <nav aria-label="Main"><ul><li><a class="link" href="/class-cookies/">Class Cookies</a></li><li><a class="link" href="/59-seconds/">59 Seconds</a></li><li><a class="link" href="/taco-trivia/">Taco Trivia</a></li><li><a class="link" href="/mango-mafia/">Mango Mafia</a></li><li><a class="link" href="/super-mushroom-man/">Super Mushroom Man</a></li><li><a class="link" href="/cookie-code/">Cookie Code</a></li><li><a class="link" href="/spaghetti-smash/" aria-current="page">Spaghetti Smash</a></li><li><a class="link" href="/#how">How I build</a></li></ul></nav>
+    <nav aria-label="Main"><ul><li><a class="link" href="/class-cookies/">Class Cookies</a></li><li><a class="link" href="/59-seconds/">59 Seconds</a></li><li><a class="link" href="/taco-trivia/">Taco Trivia</a></li><li><a class="link" href="/mango-mafia/">Mango Mafia</a></li><li><a class="link" href="/super-mushroom-man/">Super Mushroom Man</a></li><li><a class="link" href="/cookie-code/">Cookie Code</a></li><li><a class="link" href="/spaghetti-smash/" aria-current="page">Spaghetti Smash</a></li><li><a class="link" href="/hangspam/">HangSpam</a></li><li><a class="link" href="/#how">How I build</a></li></ul></nav>
   </div>
 </header>
 <main id="main">
@@ -47,28 +47,29 @@
     <div class="facts">
       <div class="fact"><b>3</b><span>free word lists: verbs, nouns and adjectives, 48 words each</span></div>
       <div class="fact"><b>2–6</b><span>teams taking turns</span></div>
-      <div class="fact"><b>5</b><span>bonus cards, such as double points and a frozen clock</span></div>
-      <div class="fact"><b>203</b><span>automated tests passing</span></div>
+      <div class="fact"><b>5</b><span>bonus cards: double points, a frozen clock, a bigger smasher, slow motion and a golden character</span></div>
+      <div class="fact"><b>216</b><span>automated tests passing</span></div>
     </div>
-    <p class="asof">Counted on 19 October 2026 from the live site and a fresh copy of the production branch.</p>
+    <p class="asof">Counted on 21 October 2026 from the live site and a fresh copy of the production branch.</p>
   </div>
 </section>
 
 <section>
   <div class="wrap">
-    <div class="gallery">
+    <div class="gallery three">
       <figure class="shot reveal"><img src="/assets/img/spaghetti-smash/setup.webp" width="1600" height="900" loading="lazy" decoding="async" alt="Setup: the Verbs, Nouns and Adjectives lists, a locked 'Use your own lists' box with 'Sign in at Class Cookies', three teams, and turn time, rounds and speed."><figcaption><b>Setup.</b> Pick the words, make teams, set the time, rounds and speed.</figcaption></figure>
-      <figure class="shot reveal"><img src="/assets/img/spaghetti-smash/play.webp" width="1600" height="900" loading="lazy" decoding="async" alt="A turn: 'Smash the VERBS!' above eight bowls, with characters holding the words 'hard' and 'pencil', a 55-second clock and three team scores."><figcaption><b>A turn.</b> A right word scores a point; a wrong one costs a point.</figcaption></figure>
+      <figure class="shot reveal"><img src="/assets/img/spaghetti-smash/next-up.webp" width="1600" height="900" loading="lazy" decoding="async" alt="'Next up': Tigers, 'Send a new player to the screen.', Ready? Go!, the scores so far, and Main menu and Finish game at the top right."><figcaption><b>Next up.</b> The next team sends a player; Main menu and Finish game sit at the top.</figcaption></figure>
+      <figure class="shot reveal"><img src="/assets/img/spaghetti-smash/play.webp" width="1600" height="900" loading="lazy" decoding="async" alt="A turn: 'Smash the VERBS!' above eight bowls, three characters up holding 'choose', 'rocket' and 'wait', and the frying pan with its handle pointing down and to the right."><figcaption><b>A turn.</b> A right word scores a point; a wrong one costs a point.</figcaption></figure>
     </div>
     <div class="cols" style="margin-top:32px">
       <div class="reveal">
         <span class="label">Free lists, or your own</span>
         <p>Everyone can play the three free lists with no account. A teacher with a Class Cookies subscription can play their own word lists from My Classroom instead, and choose which free list supplies the wrong words.</p>
-        <p>Spaghetti Smash was built on 19 October 2026 from a design handed over beforehand: ten commits on the production branch, each with a Claude co-author line. The game reads a teacher's lists with the teacher's own sign-in and never writes to the platform.</p>
+        <p>Spaghetti Smash was built on 19 October 2026 from a design handed over beforehand, and changed on 21 October after I played it live: a busier board, the pan turned so its handle points down and to the right, slow motion that now slows the whole board, and Main menu on the Next up screen. Twelve commits on the production branch, each with a Claude co-author line. The game reads a teacher's lists with the teacher's own sign-in and never writes to the platform.</p>
       </div>
       <div class="reveal">
-        <span class="label">Checked, 19 October 2026</span>
-        <p>203 automated tests passing; typecheck and lint with no errors. Every screen is laid out for a classroom TV and scaled to fit the window, so nothing a class sees ever scrolls.</p>
+        <span class="label">Checked, 21 October 2026</span>
+        <p>216 automated tests passing; typecheck and lint with no errors. With a player smashing, two to four characters are up 87 to 95% of the time, depending on the speed, by the game's own measurement over 200 one-minute turns. Every screen is laid out for a classroom TV and scaled to fit the window, so nothing a class sees ever scrolls.</p>
         <div class="chips"><span>Next.js 16</span><span>React 19</span><span>TypeScript</span><span>Vitest</span><span>Vercel (Seoul)</span></div>
       </div>
     </div>

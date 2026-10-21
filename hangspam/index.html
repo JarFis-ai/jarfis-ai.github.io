@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="en" class="no-js">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>HangSpam | Jacobus Barnard</title>
+<meta name="description" content="HangSpam: a hangman word game for the whole class on one screen. Every wrong guess lowers a worried snack closer to a sizzling pan. Free with your own typed word; subscribed teachers play their own word lists from My Classroom. Part of Class Cookies.">
+<link rel="canonical" href="https://jarfis-ai.github.io/hangspam/">
+<meta property="og:type" content="website">
+<meta property="og:title" content="HangSpam: a hangman word game for the whole class">
+<meta property="og:description" content="HangSpam: a hangman word game for the whole class on one screen. Every wrong guess lowers a worried snack closer to a sizzling pan. Free with your own typed word; subscribed teachers play their own word lists from My Classroom. Part of Class Cookies.">
+<meta property="og:url" content="https://jarfis-ai.github.io/hangspam/">
+<meta property="og:image" content="https://jarfis-ai.github.io/assets/og/hangspam.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="theme-color" content="#050B14">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@500&family=Poppins:wght@600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/assets/site.css">
+<script src="/assets/site.js" defer></script>
+</head>
+<body class="accent-pink">
+<a class="sr-only" href="#main">Skip to content</a>
+<header class="nav">
+  <div class="wrap">
+    <a class="brand" href="/">Jacobus <span>Barnard</span></a>
+    <nav aria-label="Main"><ul><li><a class="link" href="/class-cookies/">Class Cookies</a></li><li><a class="link" href="/59-seconds/">59 Seconds</a></li><li><a class="link" href="/taco-trivia/">Taco Trivia</a></li><li><a class="link" href="/mango-mafia/">Mango Mafia</a></li><li><a class="link" href="/super-mushroom-man/">Super Mushroom Man</a></li><li><a class="link" href="/cookie-code/">Cookie Code</a></li><li><a class="link" href="/spaghetti-smash/">Spaghetti Smash</a></li><li><a class="link" href="/hangspam/" aria-current="page">HangSpam</a></li><li><a class="link" href="/#how">How I build</a></li></ul></nav>
+  </div>
+</header>
+<main id="main">
+<section class="hero">
+  <div class="wrap hero-grid">
+    <div>
+      <span class="pill">Live · part of Class Cookies · free</span>
+      <h1>Hang<span class="glow">Spam</span></h1>
+      <p class="lede">A hangman word game for the whole class on one screen. The teacher types a secret word, the class calls out letters, and every wrong guess lowers a worried snack closer to a sizzling pan.</p>
+      <div class="btns">
+        <a class="btn primary" href="https://hangspam.classcookies.com/" rel="noopener">Play HangSpam ↗</a>
+      </div>
+    </div>
+    <div class="hero-shot"><img src="/assets/img/hangspam/logo.webp" width="1600" height="900" fetchpriority="high" alt="The HangSpam logo: a smiling pink snack hanging from a rolling pin above the words HangSpam."></div>
+  </div>
+  <div class="wrap">
+    <div class="facts">
+      <div class="fact"><b>6</b><span>wrong guesses and the snack is cooked</span></div>
+      <div class="fact"><b>20</b><span>characters at most in a typed word or phrase</span></div>
+      <div class="fact"><b>0</b><span>teams, points or timers: the whole class plays together</span></div>
+      <div class="fact"><b>127</b><span>automated tests passing</span></div>
+    </div>
+    <p class="asof">Counted on 21 October 2026 from the live site and a fresh copy of the production branch.</p>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <div class="gallery">
+      <figure class="shot reveal"><img src="/assets/img/hangspam/setup.webp" width="1600" height="900" loading="lazy" decoding="async" alt="Setup: a 'Secret word' box with a Show button and Start game, and a 'My word lists' box with 'Sign in at Class Cookies'."><figcaption><b>Setup.</b> Type a secret word, or sign in to play a list from My Classroom.</figcaption></figure>
+      <figure class="shot reveal"><img src="/assets/img/hangspam/play.webp" width="1600" height="900" loading="lazy" decoding="async" alt="A round: the snack hangs from a rolling pin above a pan, P and I found in a six-letter word, three wrong letters crossed out, '3 left'."><figcaption><b>Three wrong.</b> The snack is halfway down, and it looks worried.</figcaption></figure>
+    </div>
+    <div class="cols" style="margin-top:32px">
+      <div class="reveal">
+        <span class="label">Your word, or your lists</span>
+        <p>The free game needs no account: the teacher types any word or short phrase, hidden until Show. A teacher with a Class Cookies subscription can also play through their own word lists from My Classroom, one word after another.</p>
+        <p>The snack is only ever cooked in a cartoon way, and there is no noose: it hangs from a rolling pin. HangSpam was built on 21 October 2026 from a design handed over beforehand: five commits on the production branch, each with a Claude co-author line. It reads a teacher's lists with the teacher's own sign-in and never writes to the platform.</p>
+      </div>
+      <div class="reveal">
+        <span class="label">Checked, 21 October 2026</span>
+        <p>127 automated tests passing; typecheck and lint with no errors. Like Spaghetti Smash, every screen is laid out on a fixed stage and scaled to fit the window, so the page itself never scrolls. Phones get a note asking for a bigger screen.</p>
+        <div class="chips"><span>Next.js 16</span><span>React 19</span><span>TypeScript</span><span>Vitest</span><span>Web Audio API</span><span>Vercel (Seoul)</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+</main>
+<footer>
+  <div class="wrap">
+    <div>
+      <div>&copy; 2026 Jacobus Barnard &middot; English teacher in Seoul</div>
+      <div class="small" style="margin-top:6px">Screens from a signed-in teacher come from a test copy filled with made-up data. No real teacher or student appears on this site.</div>
+    </div>
+    <div class="links">
+      <a href="mailto:hello@classcookies.com">hello@classcookies.com</a>
+      <a href="https://github.com/JarFis-ai" rel="noopener">GitHub</a>
+      <a href="https://www.linkedin.com/in/jaco-barnard-707174428" rel="noopener">LinkedIn</a>
+      <a href="https://classcookies.com/" rel="noopener">classcookies.com</a>
+    </div>
+  </div>
+</footer>
+</body>
+</html>
